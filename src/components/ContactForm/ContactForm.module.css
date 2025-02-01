@@ -1,0 +1,63 @@
+.container {
+    width: 300px;
+    padding: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    margin-top: 4px;
+}
+
+.contactInfo {
+    width: 270px;
+    height: 24px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0;
+}
+
+.contactInfo:focus,
+.contactInfo:hover {
+    border: 1px solid #007bff;
+}
+
+.addBtn {
+    align-self: center;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    padding: 8px 16px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    outline: none;
+    margin-top: 12px;
+}
+
+.addBtn:hover {
+    background-color: #3193fc;
+}
+
+.group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* gap: 8px; */
+}
+
+.error {
+    position: absolute;
+    bottom: -1.25rem;
+    left: 0;
+    width: 100%;
+    color: red;
+    font-size: 0.875rem;
+    padding-bottom: 4px;
+}
