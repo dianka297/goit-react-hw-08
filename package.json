@@ -21,7 +21,8 @@
     "react-router-dom": "^7.1.5",
     "redux": "^5.0.1",
     "redux-persist": "^6.0.0",
-    "toolkit": "^1.5.4"
+    "toolkit": "^1.5.4",
+    "yup": "^1.6.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
